@@ -176,6 +176,7 @@ export default function Seller() {
               onChange={(event) => {
                 setPrice(event.target.value);
               }}
+              required
             />
           </div>
           <div className="mb-3">
@@ -191,6 +192,7 @@ export default function Seller() {
               onChange={(event) => {
                 setQuantity(event.target.value);
               }}
+              required
             />
           </div>
           <div className="mb-3">

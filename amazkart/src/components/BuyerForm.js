@@ -58,6 +58,7 @@ export default function Buyer(props) {
             onChange={onChange}
             name="phone"
             aria-describedby="emailHelp"
+            required
           />
           <div id="emailHelp" className="form-text">
             Enter your contact number
@@ -75,6 +76,7 @@ export default function Buyer(props) {
               onChange={onChange}
               name="address"
               rows="3"
+              required
             ></textarea>
           </div>
           <div className="mb-3">
@@ -89,6 +91,7 @@ export default function Buyer(props) {
               onChange={onChange}
               name="pincode"
               aria-describedby="emailHelp"
+              required
             />
             <div id="emailHelp" className="form-text">
               Enter your area pincode.

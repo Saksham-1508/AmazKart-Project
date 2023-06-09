@@ -130,6 +130,7 @@ export default function SellerForm() {
               onChange={onChange}
               name="ifsc"
               aria-describedby="emailHelp"
+              required
             />
             <div id="emailHelp" className="form-text">
               Enter IFSC code.
@@ -147,6 +148,7 @@ export default function SellerForm() {
               onChange={onChange}
               name="acno"
               aria-describedby="emailHelp"
+              required
             />
             <div id="emailHelp" className="form-text">
               Enter account number.
